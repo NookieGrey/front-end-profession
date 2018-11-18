@@ -1,0 +1,114 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    color: #212121;
+    font: 400 16px/24px Roboto, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    text-align: center;
+}
+
+.top-menu {
+    border-bottom: 1px solid #bdbdbd;
+    height: 48px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 32px;
+    margin: 8px 0;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 32px;
+    margin: 8px 0;
+}
+
+.title-container {
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    padding: 14px 0 48px;
+}
+
+.title {
+    font: 400 44px/52px Google Sans, sans-serif;
+    letter-spacing: -.5px;
+    margin: 0 0 14px;
+    padding: 40px 24px 20px;
+    text-align: center;
+}
+
+.form {
+    width: 804px;
+    position: relative;
+    display: inline-block;
+    vertical-align: 0;
+}
+
+.search {
+    border-radius: 2px;
+    color: #212121;
+    font: 16px/20px Roboto,sans-serif;
+    margin: 0;
+    width: 100%;
+    outline: 0;
+    vertical-align: middle;
+    background: #f7f7f7;
+    border: 0;
+    color: rgba(0, 0, 0, .54);
+    height: 36px;
+    padding: 8px 8px 8px 72px;
+    transition: color .2s;
+}
+
+.devsite-search-image {
+    color: rgba(0,0,0,.54);
+    left: 24px;
+    position: absolute;
+    top: 6px;
+    transition: color .2s;
+}
+
+.devsite-search-image::before {
+    content: 'search';
+}
+
+.results {
+    text-align: left;
+    width: 804px;
+    display: inline-block;
+    margin: 24px 0;
+}
+
+.result-row {
+    padding: 10px 0;
+}
+
+.result-title {
+    color: #039be5;
+    font: 500 16px/24px Roboto,sans-serif;
+    height: auto;
+    text-decoration: none;
+}
+
+.result-url {
+    color: #0d904f;
+    font-size: 14px;
+}
+
+.result-description {
+    color: #000000;
+    font: 400 16px/24px Roboto,sans-serif;
+}
+
+.result-template {
+    display: none;
+}
